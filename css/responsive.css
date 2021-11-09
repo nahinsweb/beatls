@@ -1,0 +1,429 @@
+/* ---------------extra small-------------- */
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/* ---------------------------header part start--------------------- */
+    header .header-left {
+        text-align: center;
+    }
+    
+    header .header-right {
+        text-align: center;
+    }
+/* ---------------------------header part end--------------------- */
+
+/* ---------------------------Navber part Start--------------------- */
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+    .navbar-light .navbar-toggler {
+        color: #0872b9;
+    }
+    .navbar-nav .nav-link {
+        text-align: right;
+    }
+/* ---------------------------Navber part end--------------------- */
+
+/* ---------------------------banner part Start--------------------- */
+#banner-part .overlay .text-part h2 {
+	font-size: 25px;
+}
+#banner-part .overlay .text-part h1 {
+	margin-top: 10px;
+	font-size: 30px;
+}
+#banner-part .overlay .text-part {
+	padding: 17px 0;
+}
+#banner-part .overlay .text-part p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 10px 0;
+	line-height: 22px;
+	margin-bottom: 10px;
+	width: 306px;
+	margin-left: -10px;
+}
+.btn {
+	margin-bottom: 5px;
+}
+
+/* ---------------------------banner part end--------------------- */
+
+/* ---------------------------about part start--------------------- */
+#about-part .about-img img{
+    width: 90%;
+}
+#about-part .about-text {
+	line-height: 25px;
+	width: 284px;
+}
+/* ---------------------------about part end--------------------- */
+
+/* ---------------------------team part start--------------------- */
+
+#team-part .team .item .overlay {
+	height: 83%;
+}
+#team-part .team .item .overlay .overly-icon a i {
+	width: 45px;
+	height: 45px;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+
+/* ---------------------------team part end--------------------- */
+
+/* ---------------------------testimonial part start--------------------- */
+#testimonial-part .testimonial{
+    margin-top: -20px;
+}
+#testimonial-part .testimonial .item .round-img{
+    margin-top: 50px;
+}
+/* ---------------------------testimonial part end--------------------- */
+
+/* ---------------------------Footer part start--------------------- */
+footer .footer-links h3{
+    margin-top: 30px;
+}
+
+/* ---------------------------Footer part end--------------------- */
+
+/* ---------------------------Copy part start--------------------- */
+#Copyright-part .copyright ul li {
+	margin: 0;
+}
+#Copyright-part{
+    padding: 20px 0 10px 0;
+}
+/* ---------------------------Copy part end--------------------- */
+}
+
+/* ---------------small-------------- */
+
+@media (min-width: 576px) and (max-width:767px){
+/* ---------------------------navber part start--------------------- */
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+    color: #0872b9;
+}
+/* ---------------------------navber part end--------------------- */
+
+/* ---------------------------Banner part start--------------------- */
+#banner-part{
+    margin-bottom: 50px;
+}
+#banner-part .overlay .text-part h2 {
+	font-size: 25px;
+}
+#banner-part .overlay .text-part h1 {
+	margin-top: 10px;
+	font-size: 30px;
+}
+#banner-part .overlay .text-part {
+	padding: 25px 0;
+}
+#banner-part .overlay .text-part p {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px 0;
+	line-height: 24px;
+	margin-bottom: 10px;
+	width: 524px;
+	margin-left: -10px;
+}
+.btn {
+	margin-bottom: 5px;
+}
+/* ---------------------------Banner part end--------------------- */
+
+/* ---------------------------about part Start--------------------- */
+#about-part{
+    margin-bottom: 50px;
+}
+#about-part .about-img img{
+    margin-left: 68px;
+}
+#about-part .about-text {
+	width: 514px;
+}
+/* ---------------------------about part end--------------------- */
+
+/* ---------------------------service part start--------------------- */
+#service-part{
+    margin-bottom: 50px;
+}
+
+/* ---------------------------service  part end--------------------- */
+
+/* ---------------------------team  part start--------------------- */
+#team-part{
+    margin-bottom: 50px;
+}
+#team-part .team .item .overlay {
+	height: 80.16%;
+}
+#team-part .team .item .overlay .overly-icon a i {
+	width: 45px;
+	height: 45px;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 21px;
+	margin-top: 11px;
+}
+/* ---------------------------team  part end--------------------- */
+
+/* ---------------------------testimonial part start--------------------- */
+#testimonial-part .testimonial{
+    margin-top: -20px;
+}
+#testimonial-part .testimonial .item .round-img{
+    margin-top: 50px;
+}
+/* ---------------------------testimonial part end--------------------- */
+
+/* ---------------------------footer part start--------------------- */
+footer .footer-links .links ul li{
+    margin-bottom: 10px;
+}
+/* ---------------------------footer part start--------------------- */
+
+}
+
+/* ---------------medium-------------- */
+
+@media (min-width: 768px) and (max-width:991px){
+/* ---------------------------navber part start--------------------- */
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+    color: #0872b9;
+}
+/* ---------------------------navber part end--------------------- */
+
+/* ---------------------------Banner part start--------------------- */
+#banner-part{
+    margin-bottom: 50px;
+}
+#banner-part .overlay .text-part h2 {
+	font-size: 32px;
+}
+#banner-part .overlay .text-part h1 {
+	margin-top: 10px;
+	font-size: 35px;
+}
+#banner-part .overlay .text-part {
+	padding: 50px 0;
+}
+#banner-part .overlay .text-part p {
+	font-size: 16px;
+	font-weight: 500;
+	padding: 10px 0;
+	line-height: 27px;
+	margin-bottom: 10px;
+	width: 558px;
+	margin-left: 137px;
+}
+.btn {
+	margin-bottom: 5px;
+}
+/* ---------------------------Banner part end--------------------- */
+
+/* ---------------------------about part start--------------------- */
+#about-part{
+    margin-bottom: 50px;
+}
+#about-part .about-img img{
+    width: 110%;
+}
+#about-part .about-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 18px;
+	width: 486px;
+	margin-top: 0px;
+}
+/* ---------------------------About part end--------------------- */
+
+/* ---------------------------Service part start--------------------- */
+#service-part{
+    margin-bottom: 30px;
+}
+/* ---------------------------Service part end--------------------- */
+/* ---------------------------team  part start--------------------- */
+#team-part{
+    margin-bottom: 50px;
+}
+#team-part .team .item .overlay {
+	height: 84.7%;
+}
+#team-part .team .item .overlay .overly-icon a i {
+	width: 55px;
+	height: 55px;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 55px;
+	margin-left: 32px;
+	margin-top: 24px;
+}
+
+/* ---------------------------team  part end--------------------- */
+
+/* ---------------------------testimonial part start--------------------- */
+#testimonial-part .testimonial{
+    margin-top: -20px;
+}
+#testimonial-part .testimonial .item .round-img{
+    margin-top: 50px;
+}
+/* ---------------------------testimonial part end--------------------- */
+}
+
+/* ---------------large-------------- */
+
+@media (min-width: 992px) and (max-width:1199px){
+
+/* ---------------------------navber part start--------------------- */
+.navbar-nav .nav-link {
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 4px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+}
+/* ---------------------------navber part end--------------------- */
+/* ---------------------------banner part start--------------------- */
+#banner-part{
+    margin-bottom: 50px;
+}
+#banner-part .overlay .text-part p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 16px 0;
+	line-height: 28px;
+	margin-bottom: 10px;
+	width: 523px;
+	margin-left: 410px;
+}
+#banner-part .overlay .text-part {
+	text-align: right;
+	padding: 72px 0;
+	color: white;
+}
+/* ---------------------------banner part end--------------------- */
+
+/* ---------------------------about part end--------------------- */
+#about-part{
+    margin-bottom: 50px;
+}
+#about-part .about-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 27px;
+	margin-left: 78px;
+	width: 561px;
+	margin-top: 11px;
+}
+
+/* ---------------------------about part end--------------------- */
+/* ---------------------------service part start--------------------- */
+#service-part{
+    margin-bottom: 50px;
+}
+/* ---------------------------service part end--------------------- */
+
+
+/* ---------------------------team  part start--------------------- */
+#team-part{
+    margin-bottom: 50px;
+}
+#team-part .team .item .overlay {
+	height: 78%;
+}
+#team-part .team .item .overlay .overly-icon a i {
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+	color: white;
+	font-size: 17px;
+	font-weight: 500;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 16px;
+	margin-top: 7px;
+}
+/* ---------------------------team  part end--------------------- */
+
+/* ---------------------------footer  part Start--------------------- */
+footer .footer-logo .f-logo p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14.5px;
+	font-weight: 400;
+	color: #fff;
+	margin: 20px 0;
+	line-height: 28px;
+}
+footer .footer-contact .f-icon .icon i {
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	background: #5bc5f4;
+	color: #fff;
+	line-height: 38px;
+	font-size: 17px;
+	text-align: center;
+}
+footer .footer-contact .f-icon .text p {
+	margin-top: -5px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	width: 138px;
+	line-height: 27px;
+	font-weight: 400;
+}
+footer .footer-links .links ul li a {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	transform: .4s;
+	font-weight: 400;
+}
+footer .footer-links .links ul li {
+	margin-bottom: 12px;
+}
+/* ---------------------------footer  part end--------------------- */
+
+}

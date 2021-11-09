@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+.title-text h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight:600;
+    color: #353535;
+    text-transform: uppercase;
+
+}
+.title-img img{
+    margin-top: -20px;
+    margin-right: 40px;
+    width: 80px;
+    
+}
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+/* ---------------------------header part start--------------------- */
+
+header{
+    background: #0872b9;
+    padding: 10px 0;
+}
+header .header-left{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+header .header-right{
+    text-align: right;
+}
+header .header-right a{
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 25px;
+}
+header .header-right {
+    padding-right: 20px;
+}
+header .header-right a:hover{
+    color:#353535 ;
+}
+
+/* ---------------------------header part end--------------------- */
+
+/* ---------------------------Navber part Start--------------------- */
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#353535;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #0872b9;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #d6d6d6;
+    top: 0;
+    z-index: 9999;
+}
+
+/* ---------------------------Navber part end--------------------- */
+
+/* ---------------------------banner part Start--------------------- */
+#banner-part{
+    background: url(../images/banner.png) center no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#banner-part .overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+#banner-part .overlay .text-part{
+    text-align: right;
+    padding: 102px 0;
+    color: white;
+}
+#banner-part .overlay .text-part h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#banner-part .overlay .text-part h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#banner-part .overlay .text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 30px 0;
+    line-height: 28px;
+    margin-bottom: 10px;
+    width: 500px;
+    margin-left: 795px;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem 1.75rem;
+    font-size: 1rem;
+    border-radius: 0rem;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0872b9;
+    border-color: #0a57ca00;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd00;
+    border-color: #fff;
+}
+.btn-outline-light:hover {
+    color: #fff;
+    background-color: #0872b9;
+    border-color: #f8f9fa00;
+}
+
+/* ---------------------------banner part end--------------------- */
+
+/* ---------------------------about part start--------------------- */
+#about-part{
+    margin-bottom: 100px;
+}
+#about-part .about-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 22px 0;
+    line-height: 28px;
+    width: 727px;
+}
+
+
+
+/* ---------------------------about part end--------------------- */
+
+/* ---------------------------Service part start--------------------- */
+
+
+#service-part{
+    margin-bottom: 100px;
+}
+#service-part .title .title-img img{
+    margin-right: 90px;
+}
+#service-part .service-slid .item{
+    background: #f1f1f1;
+    margin: 50px 10px;
+}
+#service-part .service-slid .item .round{
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    position: relative;
+}
+#service-part .service-slid .item .round .boder-round{
+    height: 90%;
+    width: 90%;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#service-part .service-slid .item .round .boder-round .inner-round{
+    height: 85%;
+    width: 85%;
+    background: #f1f1f1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#service-part .service-slid .item .round .boder-round .inner-round img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#service-part .service-slid .item:hover{
+    box-shadow: -1px 1px 10px 1px rgba(115,111,115,1);
+}
+#service-part .service-slid .item:hover .boder-round{
+    border-color: #5bc5f4 ;
+}
+#service-part .service-slid .item:hover .boder-round .inner-round{
+    background: #5bc5f4;
+}
+#service-part .service-slid .item .item-text h2{
+    color: #353535;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -30px;
+}
+#service-part .service-slid .item .item-text p{
+    color: #353535;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 30px;
+    padding: 0 15px;
+    padding-bottom: 30px;
+}
+/* ---------------------------Service part end--------------------- */
+
+/* ---------------------------portfolio part start--------------------- */
+#portfolio-part{
+    margin-bottom: 100px;
+}
+#portfolio-part .title{
+    margin-bottom: 30px;
+}
+#portfolio-part .title img{
+    margin-right: 110px;
+}
+#portfolio-part .protfolio .item .pic img{
+    width: 100%;
+}
+#portfolio-part .protfolio .item .pic{
+    margin-top: 25px;
+    position: relative;
+}
+#portfolio-part .protfolio .item .pic .overlay{
+    height: 0%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.500);
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: .4s;
+}
+#portfolio-part .protfolio .item .pic:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+#portfolio-part .protfolio .item .pic .overlay .overlay-icon{
+    top: 45%;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    line-height: 50px;
+    position: absolute;
+    
+}
+#portfolio-part .protfolio .item .pic .overlay .overlay-icon a{
+    color: #fff;
+    margin-left:15px;
+
+}
+
+
+/* ---------------------------portfolio part end--------------------- */
+
+/* ---------------------------Team part start--------------------- */
+#team-part{
+    margin-bottom: 100px;
+}
+#team-part .team .item{
+    position: relative;
+}
+#team-part .team .item .pic img{
+    width: 100%;
+    display: block;
+}
+#team-part .team .item:hover{
+    box-shadow: -7px 9px 9px -4px rgba(0,0,0,0.52);
+}
+#team-part .team .item .overlay{
+    width: 0%;
+    height: 83.5%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .4s;
+}
+#team-part .team .item:hover .overlay{
+    width: 35%;
+}
+#team-part .team .item .overlay .overly-icon a i{
+    width: 55px;
+    height: 55px;
+    border:1px solid white ;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 55px;
+    margin-left: 25px;
+    margin-top: 15px;
+    transition: .4s;
+}
+#team-part .team .item .overlay .overly-icon {
+    margin: 35px 0;
+}
+#team-part .team .item .overlay .overly-icon a:hover i{
+    background: #5bc5f4;
+    border: none;
+}
+#team-part .team .text h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #353535;
+}
+#team-part .team .text h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #353535;
+    padding-bottom: 10px;
+}
+#team-part .team .item:hover h2{
+    color: #5bc5f4;
+}
+/* ---------------------------Team part end--------------------- */
+
+/* ---------------------------Testimonial part start--------------------- */
+#testimonial-part{
+    margin-bottom:100px ;
+}
+#testimonial-part .title .title-img{
+    margin-right: 30px;
+}
+#testimonial-part .testimonial .item .round-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    margin:0 auto;
+}
+#testimonial-part .testimonial .item .round-img img{
+    width: 100%;
+}
+#testimonial-part .testimonial .item .text{
+    background:#f1f1f1;
+    margin-top: 100px;
+}
+#testimonial-part .testimonial .item .text .shape{
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+#testimonial-part .testimonial .item .text .details h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #353535;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -30px;
+}
+#testimonial-part .testimonial .item .text .details i{
+    color: #5bc5f4;
+    font-size: 14px;
+}
+#testimonial-part .testimonial .item .text .details h5{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #353535;
+    text-align: center;
+}
+#testimonial-part .testimonial .item .text .details p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #353535;
+    padding: 0 30px;
+    padding-bottom: 15PX;
+}
+/* ---------------------------Testimonial part end--------------------- */
+
+/* ---------------------------footer part start--------------------- */
+footer{
+    padding: 30px 0 0 0;
+    background: #353535;
+}
+
+footer .footer-logo .f-logo p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15.5px;
+    font-weight: 300;
+    color: #fff;
+    margin: 20px 0;
+    line-height: 33px;
+}
+footer h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+footer .footer-contact h3{
+    margin-bottom: 42px;
+}
+footer .footer-contact .f-icon{
+    width: 100%;
+    display: flex;
+    margin-top: 18px;
+}
+footer .footer-contact .f-icon .icon{
+    width: 20%;
+}
+footer .footer-contact .f-icon .text{
+    width: 80%;
+}
+footer .footer-contact .f-icon .icon i{
+    width: 45px; 
+    height: 45px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    color: #fff;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+}
+footer .footer-contact .f-icon .text p{
+    margin-top: -5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    width: 168px;
+    line-height: 27px;
+    font-weight: 300;
+}
+footer .footer-links .links{
+    margin-left: -30px;
+}
+footer .footer-links .links ul{
+    width: 100%;
+    display: flex;
+}
+footer .footer-links .links ul .first-link{
+    width: 50%;
+    
+}
+footer .footer-links .links ul .two-link{
+    width: 50%;
+}
+footer .footer-links .links ul li{
+    margin-bottom: 18px;
+}
+footer .footer-links .links ul li a{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    transform: .4s;
+    font-weight: 400;
+}
+footer .footer-links .links ul li a:hover{
+    color: #5bc5f4;
+}
+footer .photo-part .photo img {
+    width: 32%;
+    padding: 0px 13px 17px 0px;
+    line-height: 29px;
+}
+/* ---------------------------footer part end--------------------- */
+
+/* ---------------------------Copyright part start--------------------- */
+#Copyright-part{
+    background: #555555;
+}
+#Copyright-part .copyright{
+    text-align: center;
+}
+#Copyright-part .copyright ul li{
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0;
+}
+#Copyright-part .copyright p{
+    color: #f1f1f1;
+}
+#Copyright-part .copyright ul li a{
+    color: #5bc5f4;
+}
+/* ---------------------------Copyright part end--------------------- */
